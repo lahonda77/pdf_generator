@@ -1,0 +1,21 @@
+*{
+    font-family: 'Helvetica', serif;
+}
+.header{
+    height: 15vh;
+}
+.menumask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 100vh;
+}
+.body{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
